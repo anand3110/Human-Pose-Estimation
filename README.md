@@ -6,4 +6,4 @@ This project leverages Mediapipe's Blazepose model for pose estimation, which po
 
 ## Future Improvements:
 ### Customizable Range of Motion
-Allow users to set their own range of motion, rather than keeping it fixed at 40 to 160 degrees. This flexibility would enable users to adjust the counter for various types of curls or personal preferences, making the tool adaptable for different training needs and levels.
+Allow users to set their own range of motion, rather than keeping it fixed at 30 to 160 degrees. This flexibility would enable users to adjust the counter for various types of curls or personal preferences, making the tool adaptable for different training needs and levels.
