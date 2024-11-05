@@ -4,6 +4,9 @@ The project aims to create a biceps curl counter that uses human pose estimation
 ## Description
 This project leverages Mediapipe's Blazepose model for pose estimation, which powers the backend by calculating the 3D coordinates of key body points. We extract three keypoints—the wrist, elbow, and shoulder form two lines: one connecting the shoulder and elbow (line A) and another connecting the elbow and wrist (line B). By calculating the angle between lines A and B, we determine the elbow’s angle, which serves as the basis for counting repetitions. A binary variable, 'stage,' tracks the hand position during each curl, indicating whether it’s in the UP or DOWN position. Each successful transition from DOWN to UP increases the counter by 1. Counters are maintained separately for both the right and left arms.
 
+
+<img width="290" alt="Demo" src="https://github.com/user-attachments/assets/acdc59ab-3f74-45e5-b7a9-3a2fc30da7c6">
+
 ## Future Improvements:
 ### Customizable Range of Motion
 Allow users to set their own range of motion, rather than keeping it fixed at 30 to 160 degrees. This flexibility would enable users to adjust the counter for various types of curls or personal preferences, making the tool adaptable for different training needs and levels.
